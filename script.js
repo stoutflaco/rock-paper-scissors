@@ -70,14 +70,14 @@ for (let i = 0; i < 5; i++) {
 //score shower
 if (humanWinCount > computerWinCount) {
   console.log(
-    `YOU WON🥇: Your score(${humanWinCount}), Computer score(${computerWinCount})`,
+    `FINAL RESULT: YOU WON🥇: Your score(${humanWinCount}), Computer score(${computerWinCount})`,
   );
 } else if (humanWinCount < computerWinCount) {
   console.log(
-    `YOU HESITATED🥈: Your score(${humanWinCount}), Computer score(${computerWinCount})`,
+    `FINAL RESULT: YOU HESITATED🥈: Your score(${humanWinCount}), Computer score(${computerWinCount})`,
   );
 } else {
   console.log(
-    `ONLY SELECT FEW POSSESS THE SKILLS TO DRAW A BEST OF 5😭😭😭: Your score(${humanWinCount}), Computer score(${computerWinCount})`,
+    `FINAL RESULT: ONLY SELECT FEW POSSESS THE SKILLS TO DRAW A BEST OF 5😭😭😭: Your score(${humanWinCount}), Computer score(${computerWinCount})`,
   );
 }
